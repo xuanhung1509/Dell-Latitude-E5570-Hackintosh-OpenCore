@@ -48,6 +48,11 @@
 - Combo headphone jack's microphone
 - VGA port might not work. See [here](https://osxlatitude.com/forums/topic/18160-dell-latitude-e5570-how-to-get-vga-and-bluetooth-working-under-monterey/?do=findComment&comment=118362).
 
+## Known Issues
+
+- Sometimes, the trackpad cursor arbitrarily jumps to a corner of the screen. This seems to relate to the trackpad driver.
+- On some rare occasions, the trackpad and internal keyboard not working after waking up from sleep, while external mouse and keyboard work just fine. After unlocking, I put the cursor into a text field and I see that the character `a` is printed forever. If this is your case, the temporary solution is to force shutdown the machine by pressing and holding the power button for about 5 secs.
+
 ## EFI Folder Structure
 
 <details>
